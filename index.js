@@ -1,6 +1,9 @@
 // Import stylesheets
 import './style.css';
-
+import "./index.html"
 // Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const app = document.getElementById("app")
+function execute(){
+  return "<p>hello</p>"
+}
+app.innerHTML = execute()
